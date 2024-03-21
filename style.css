@@ -6,7 +6,11 @@
 	text-decoration: none;
 	list-style-type: none;
 }
-html,
+
+html {
+	background-color: blue;
+}
+
 body {
 	scroll-behavior: smooth;
 	background-color: #231f20;
@@ -158,15 +162,6 @@ div#boxIdioma span {
 }
 
 /*  footer  */
-
-footer {
-	font-size: 1px;
-	width: 100%;
-	background-color: #370f0f;
-	color: rgb(224, 209, 238);
-	text-align: center;
-	padding: 1dvb;
-}
 
 #contentInternoLeft_about::-webkit-scrollbar {
 	display: none;
